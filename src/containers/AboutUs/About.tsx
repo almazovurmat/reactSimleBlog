@@ -23,7 +23,6 @@ const About = () => {
                 aboutUs.id = key;
                 return aboutUs;
             });
-            console.log(aboutUsData[0]);
             setAbout(aboutUsData[0]);
         } catch (error) {
             console.error(error);
