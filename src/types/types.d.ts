@@ -13,10 +13,19 @@ export interface IPostApi {
 
 export interface IAboutApi {
     text: string;
-    text1: string;
     text2: string;
     text3: string;
     text4: string;
+    text5: string;
+}
+
+export interface IAboutData {
+    id: string;
+    text: string;
+    text2: string;
+    text3: string;
+    text4: string;
+    text5: string;
 }
 
 export interface IContactApi {
