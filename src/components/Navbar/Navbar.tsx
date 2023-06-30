@@ -20,6 +20,9 @@ const Navbar = () => {
                             <NavLink to="/new-post" className="nav-link px-lg-3 py-3 py-lg-4">Add new post</NavLink>
                         </li>
                         <li className="nav-item">
+                            <NavLink to="/posts" className="nav-link px-lg-3 py-3 py-lg-4">All posts</NavLink>
+                        </li>
+                        <li className="nav-item">
                             <NavLink to="/about-us" className="nav-link px-lg-3 py-3 py-lg-4">About</NavLink>
                         </li>
                         <li className="nav-item">
